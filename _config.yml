@@ -18,6 +18,9 @@ branch: gh-pages
 org_name: GSA
 
 # Build settings
+plugins:                                                                         
+  - jekyll-remote-theme
+remote_theme: brockfanning/sdg-indicators-jekyll
 markdown: kramdown
 
 # Pages
